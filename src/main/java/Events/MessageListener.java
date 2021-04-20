@@ -1,7 +1,6 @@
 package Events;
 
-import Game.Core;
-import Game.Player;
+
 import net.dv8tion.jda.api.entities.*;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
@@ -14,7 +13,7 @@ import java.util.Collection;
 import java.util.Locale;
 
 public class MessageListener extends ListenerAdapter {
-    Core cores = new Core();
+
     private int j = -1;
     //  private Player[] players =new Player[6];
     private PlayerQ[] players = new PlayerQ[6];
@@ -112,6 +111,7 @@ public class MessageListener extends ListenerAdapter {
                     System.out.println(players);
                     q=1;
                     j=-1;
+                    //salem.getHistory()
             }
             }
 
